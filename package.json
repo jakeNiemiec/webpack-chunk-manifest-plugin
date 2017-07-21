@@ -1,10 +1,11 @@
 {
   "name": "webpack-chunk-manifest-plugin",
-  "version": "3.0.0",
+  "version": "0.0.0",
   "description": "Allows exporting a manifest that maps chunk ids to their output files, instead of keeping the mapping inside the webpack bootstrap.",
   "main": "lib/ChunkManifestPlugin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no test specified\" && true",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Jake Niemiec <jake.j.niemiec@gmail.com> (https://twitter.com/jake_niemiec)",
   "license": "MIT",
@@ -16,13 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jakeNiemiec/webpack-chunk-manifest-plugin.git"
+    "url": "https://github.com/jakeNiemiec/webpack-chunk-manifest-plugin.git"
   },
   "bugs": {
     "url": "https://github.com/jakeNiemiec/webpack-chunk-manifest-plugin/issues"
   },
   "homepage": "https://github.com/jakeNiemiec/webpack-chunk-manifest-plugin#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "semantic-release": "^6.3.6"
+  },
   "keywords": [
     "webpack",
     "webpack3",
