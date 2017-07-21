@@ -2,6 +2,8 @@
 
 Allows exporting a JSON file that maps chunk ids to their resulting asset files. Webpack can then read this mapping, assuming it is provided somehow on the client, instead of storing a mapping (with chunk asset hashes) in the bootstrap script, which allows to actually leverage long-term caching.
 
+##### This repo was (lovingly) forked from [soundcloud/chunk-manifest-webpack-plugin](https://github.com/soundcloud/chunk-manifest-webpack-plugin).
+
 ## Usage
 
 Install via npm:

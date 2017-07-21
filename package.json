@@ -1,30 +1,33 @@
 {
-  "name": "chunk-manifest-webpack-plugin",
-  "version": "1.1.0",
+  "name": "webpack-chunk-manifest-plugin",
+  "version": "3.0.0",
   "description": "Allows exporting a manifest that maps chunk ids to their output files, instead of keeping the mapping inside the webpack bootstrap.",
   "main": "lib/ChunkManifestPlugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jason Anderson <diurnalist@gmail.com> (http://diurnal.st)",
+  "author": "Jake Niemiec <jake.j.niemiec@gmail.com> (https://twitter.com/jake_niemiec)",
   "license": "MIT",
   "dependencies": {
     "webpack-core": "^0.6.9"
   },
   "peerDependencies": {
-    "webpack": "^2.0.0 || ^2.1.0-beta || ^2.2.0-rc"
+    "webpack": "^2.0.0 || ^3.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soundcloud/chunk-manifest-webpack-plugin.git"
+    "url": "git+https://github.com/jakeNiemiec/webpack-chunk-manifest-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/soundcloud/chunk-manifest-webpack-plugin/issues"
+    "url": "https://github.com/jakeNiemiec/webpack-chunk-manifest-plugin/issues"
   },
-  "homepage": "https://github.com/soundcloud/chunk-manifest-webpack-plugin#readme",
+  "homepage": "https://github.com/jakeNiemiec/webpack-chunk-manifest-plugin#readme",
   "devDependencies": {},
   "keywords": [
     "webpack",
+    "webpack3",
+    "hash",
+    "fingerprint",
     "chunk",
     "manifest",
     "plugin"
