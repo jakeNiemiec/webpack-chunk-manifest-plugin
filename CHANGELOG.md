@@ -1,4 +1,4 @@
-1.1.0 / 2017-04-21
-==================
+## [3.0.0]
+* **package.json:** support webpack@^3
 
-- Adds `options.inlineManifest` for users who implement html-webpack-plugin ([#18](https://github.com/soundcloud/chunk-manifest-webpack-plugin/pull/18))
+[See `releases` for more information](https://github.com/jakeNiemiec/webpack-chunk-manifest-plugin/releases/)
